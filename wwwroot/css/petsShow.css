@@ -1,0 +1,128 @@
+html {
+  /* background-image: url("../img/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; */
+  background-color: rgb(206, 144, 63);
+  margin: 0;
+}
+body {
+  background-color: transparent;
+  margin: 0;
+}
+.lower-background {
+  background-color: black;
+  margin-top: 0;
+  padding-top: 3rem;
+}
+.pet {
+  text-align: center;
+  width: 20rem;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18rem;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action-buttons button {
+  margin: 5px;
+}
+.playground-form{
+  /* margin-top: 1rem; */
+  text-align: center;
+}
+.playground-form button {
+  padding: 5px 40px;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.health-hearts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#heart {
+  width: 2rem;
+  height: 2rem;
+}
+#happiness {
+  width: 5rem;
+  height: 5rem;
+}
+#drained-energy {
+  background-color: red;
+  width: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.inventory-title {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: Oswald;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.inventory {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.inventory-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  width: 10rem;
+  height: 5rem;
+  margin-right: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.inventory-item p {
+  margin: 0px;
+}
+.inventory-style {
+  background-color: grey;
+  padding-bottom: 8rem;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+.fullness {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 2rem;
+  height: 2rem;
+}
+.hp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  color: rgb(0, 255, 0);
+}
+.excitement {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  padding-right: 10px;
+  color: yellow;
+}

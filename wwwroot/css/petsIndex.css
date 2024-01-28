@@ -1,0 +1,152 @@
+html {
+  background-color: bisque;
+}
+body {
+  background-color: transparent;
+}
+.pet {
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+.pet img {
+  height: 10rem;
+  width: 10rem;
+}
+.container {
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  display: block;
+  text-align: center;
+}
+#abandon {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+#no-pets {
+  text-align: center;
+}
+#new-pet {
+  text-align: center;
+  margin-top: 10rem;
+  padding: 1rem;
+  background-color: black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+#shop-btn {
+  padding: 1rem;
+  background-color: brown;
+  border: 2px dashed red;
+  color: white;
+  font-weight: bold;
+}
+.health-hearts {
+  display: flex;
+  flex-direction: row;
+}
+#heart {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.inventory-title {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: Oswald;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.inventory {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.inventory-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  width: 10rem;
+  height: 5rem;
+  margin-right: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.inventory-item p {
+  margin: 0px;
+}
+.inventory-style {
+  background-color: grey;
+  padding-bottom: 8rem;
+  border: 6px solid black;
+  border-radius: 30px;
+}
+.fullness {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 2rem;
+  height: 2rem;
+}
+.hp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  color: rgb(3, 239, 3);
+}
+.energy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  color: yellow;
+}
+.excitement {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  padding-right: 10px;
+  color: yellow;
+}
+#happiness {
+  width: 3rem;
+  height: 3rem;
+}
+#pet-details-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+#pet-details-btn:hover {
+  background-color: #45a049;
+}
